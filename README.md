@@ -69,3 +69,5 @@ La interfaz gráfica presenta:
 - Evolución temporal de la Frecuencia Cardíaca (BPM).
 - Indicadores numéricos actualizados en tiempo real.
 - Estado del análisis mediante alertas visuales.
+
+![image alt](https://github.com/natsilva608/Evaluaci-n-de-la-fatiga-neuromuscular-durante-el-ejercicio-EMG-ECG-/blob/f9bc70a07889178fb288a980c41aeb18611b26a7/img1.png)
