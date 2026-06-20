@@ -47,9 +47,9 @@ python "ProyectoFinal (1).py"
 ```
 
 4. Al iniciar la interfaz gráfica:
-   - Seleccionar **"Cargar Archivo BIOPAC (.acq)"**.
-   - Elegir el archivo que contiene las señales EMG y ECG.
-   - Presionar **"Iniciar Análisis"** para comenzar el procesamiento.
+- Seleccionar **"Cargar Archivo BIOPAC (.acq)"**.
+- Elegir el archivo que contiene las señales EMG y ECG.
+- Presionar **"Iniciar Análisis"** para comenzar el procesamiento.
 
 ## Funcionamiento del programa
 Durante la ejecución, el software realiza las siguientes tareas:
