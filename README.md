@@ -68,5 +68,3 @@ La interfaz gráfica presenta:
 - Evolución temporal de la Frecuencia Cardíaca (BPM).
 - Indicadores numéricos actualizados en tiempo real.
 - Estado del análisis mediante alertas visuales.
-
-<img width="1198" height="840" alt="Captura de pantalla 2026-06-19 232317" src="https://github.com/user-attachments/assets/b304d9ec-8719-471d-b009-1353e0c8420b" />
