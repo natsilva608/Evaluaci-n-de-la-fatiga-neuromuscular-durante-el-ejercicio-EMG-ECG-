@@ -24,6 +24,7 @@ pip install pyqt5
 pip install bioread
 ```
 
+¡[image alt](https://github.com/natsilva608/Evaluaci-n-de-la-fatiga-neuromuscular-durante-el-ejercicio-EMG-ECG-/blob/f9bc70a07889178fb288a980c41aeb18611b26a7/img1.png)
 Las librerías utilizadas son:
 - **numpy:** procesamiento y manejo de arreglos numéricos.
 - **scipy.signal:** cálculo de la densidad espectral mediante Welch y detección de picos del ECG.
