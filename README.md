@@ -23,11 +23,11 @@ pip install bioread
 ```
 
 Las librerías utilizadas son:
-- **numpy:** procesamiento y manejo de arreglos numéricos.
-- **scipy.signal:** cálculo de la densidad espectral mediante Welch y detección de picos del ECG.
-- **matplotlib:** generación de las gráficas de MDF y BPM.
-- **PyQt5:** desarrollo de la interfaz gráfica de usuario.
-- **bioread:** lectura de archivos generados por BIOPAC (.acq).
+- *numpy:* procesamiento y manejo de arreglos numéricos.
+- *scipy.signal:* cálculo de la densidad espectral mediante Welch y detección de picos del ECG.
+- *matplotlib:* generación de las gráficas de MDF y BPM.
+- *PyQt5:* desarrollo de la interfaz gráfica de usuario.
+- *bioread:* lectura de archivos generados por BIOPAC (.acq).
 
 ## Ejecución del programa
 1. Abrir una terminal.
@@ -44,9 +44,9 @@ python "ProyectoFinal (1).py"
 ```
 
 4. Al iniciar la interfaz gráfica:
-- Seleccionar **"Cargar Archivo BIOPAC (.acq)"**.
+- Seleccionar "Cargar Archivo BIOPAC (.acq)".
 - Elegir el archivo que contiene las señales EMG y ECG.
-- Presionar **"Iniciar Análisis"** para comenzar el procesamiento.
+- Presionar "Iniciar Análisis" para comenzar el procesamiento.
 
 ## Funcionamiento del programa
 Durante la ejecución, el software realiza las siguientes tareas:
