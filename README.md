@@ -9,9 +9,7 @@ La aplicación procesa ambas señales en tiempo real a partir de un archivo con 
 ## Requisitos del sistema
 - Python
 - Sistema operativo Windows
-- Archivo de adquisición BIOPAC (.acq) que contenga:
-  - Un canal de EMG de superficie
-  - Un canal de ECG (Derivación 1).
+- Archivo de adquisición BIOPAC (.acq) que contenga un canal de EMG de superficie y un canal de ECG (Derivación 1).
 
 ## Librerías necesarias
 Antes de ejecutar el programa es necesario instalar las siguientes librerías de Python:
