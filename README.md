@@ -1,5 +1,4 @@
 # EVALUACION DE LA FATIGA NEUROMUSCULAR DURANTE EL EJERCICIO (EMG+ECG)
-
 ## Descripción
 
 Este proyecto tiene como objetivo evaluar la fatiga neuromuscular durante una contracción isométrica sostenida mediante el análisis simultáneo de señales de Electromiografía (EMG) y Electrocardiografía (ECG). El programa fue desarrollado en Python y utiliza archivos obtenidos con un sistema de BIOPAC.
