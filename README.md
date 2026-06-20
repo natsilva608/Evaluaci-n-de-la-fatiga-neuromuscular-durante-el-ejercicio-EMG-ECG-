@@ -1,1 +1,1 @@
-# Evaluaci-n-de-la-fatiga-neuromuscular-durante-el-ejercicio-EMG-ECG-
+Evaluacion_de_la_fatiga_neuromuscular_durante_el_ejercicio_EMG_ECG
