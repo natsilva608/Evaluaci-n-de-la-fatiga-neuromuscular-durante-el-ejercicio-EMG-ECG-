@@ -1,4 +1,4 @@
-# Evaluación de la Fatiga Neuromuscular Durante el Ejercicio (EMG + ECG)
+# EVALUACION DE LA FATIGA NEUROMUSCULAR DURANTE EL EJERCICIO (EMG+ECG)
 
 ## Descripción
 
