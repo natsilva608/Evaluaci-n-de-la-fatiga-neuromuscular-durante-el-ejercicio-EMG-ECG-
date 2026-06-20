@@ -50,12 +50,12 @@ python "ProyectoFinal (1).py"
 
 ## Funcionamiento del programa
 Durante la ejecución, el software realiza las siguientes tareas:
-- Lee automáticamente los canales de EMG y ECG del archivo BIOPAC.
-- Obtiene las frecuencias de muestreo correspondientes.
-- Procesa la señal EMG en ventanas de un segundo utilizando el método de Welch para estimar la Frecuencia Mediana (MDF).
-- Detecta los picos R del ECG para calcular la frecuencia cardíaca instantánea (BPM).
-- Actualiza continuamente las gráficas de MDF y BPM.
-- Evalúa el estado fisiológico del usuario mediante una lógica de detección de fatiga.
+1.Lee automáticamente los canales de EMG y ECG del archivo BIOPAC.
+2.Obtiene las frecuencias de muestreo correspondientes.
+3.Procesa la señal EMG en ventanas de un segundo utilizando el método de Welch para estimar la Frecuencia Mediana (MDF).
+4.Detecta los picos R del ECG para calcular la frecuencia cardíaca instantánea (BPM).
+5.Actualiza continuamente las gráficas de MDF y BPM.
+6.Evalúa el estado fisiológico del usuario mediante una lógica de detección de fatiga.
 
 Si la MDF disminuye aproximadamente un 15 % respecto al valor inicial y, simultáneamente, la frecuencia cardíaca permanece elevada o continúa aumentando, el sistema mostrará el mensaje: **¡FATIGA MUSCULAR DETECTADA!**
 En caso contrario, el sistema indicará que el ejercicio continúa dentro de parámetros normales.
