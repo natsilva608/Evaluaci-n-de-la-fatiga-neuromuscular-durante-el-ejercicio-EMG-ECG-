@@ -30,20 +30,20 @@ Las librerías utilizadas son:
 - *bioread:* lectura de archivos generados por BIOPAC (.acq).
 
 ## Ejecución del programa
-1. Abrir una terminal.
-2. Ubicarse en la carpeta donde se encuentra el archivo:
+**1.** Abrir una terminal.
+**2.** Ubicarse en la carpeta donde se encuentra el archivo:
 
 ```
 ProyectoFinal (1).py
 ```
 
-3. Ejecutar el programa mediante:
+**3.** Ejecutar el programa mediante:
 
 ```bash
 python "ProyectoFinal (1).py"
 ```
 
-4. Al iniciar la interfaz gráfica:
+**4.** Al iniciar la interfaz gráfica:
 - Seleccionar "Cargar Archivo BIOPAC (.acq)".
 - Elegir el archivo que contiene las señales EMG y ECG.
 - Presionar "Iniciar Análisis" para comenzar el procesamiento.
