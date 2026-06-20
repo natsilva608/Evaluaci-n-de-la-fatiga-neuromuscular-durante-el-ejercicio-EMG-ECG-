@@ -6,20 +6,14 @@ Este proyecto tiene como objetivo evaluar la fatiga neuromuscular durante una co
 
 La aplicación procesa ambas señales en tiempo real a partir de un archivo con extensión `.acq`, calculando la evolución de la Frecuencia Mediana (Median Frequency, MDF) de la señal EMG y la Frecuencia Cardíaca (BPM) obtenida del ECG. Cuando se detecta una disminución significativa de la MDF, mientras la frecuencia cardíaca permanece elevada o en ascenso, el sistema genera una alerta indicando la presencia de fatiga muscular.
 
----
-
 ## Requisitos del sistema
-
 - Python 3.10 o superior.
 - Sistema operativo Windows, Linux o macOS.
 - Archivo de adquisición BIOPAC (.acq) que contenga:
   - Un canal de EMG de superficie (bíceps).
   - Un canal de ECG (Derivación I).
 
----
-
 ## Librerías necesarias
-
 Antes de ejecutar el programa es necesario instalar las siguientes librerías de Python:
 
 ```bash
@@ -44,10 +38,7 @@ Las librerías utilizadas son:
 - **PyQt5:** desarrollo de la interfaz gráfica de usuario.
 - **bioread:** lectura de archivos generados por BIOPAC (.acq).
 
----
-
 ## Ejecución del programa
-
 1. Abrir una terminal o consola.
 2. Ubicarse en la carpeta donde se encuentra el archivo:
 
@@ -66,10 +57,7 @@ python "ProyectoFinal (1).py"
    - Elegir el archivo que contiene las señales EMG y ECG.
    - Presionar **"Iniciar Análisis"** para comenzar el procesamiento.
 
----
-
 ## Funcionamiento del programa
-
 Durante la ejecución, el software realiza las siguientes tareas:
 
 - Lee automáticamente los canales de EMG y ECG del archivo BIOPAC.
@@ -82,13 +70,10 @@ Durante la ejecución, el software realiza las siguientes tareas:
 Si la MDF disminuye aproximadamente un 15 % respecto al valor inicial y, simultáneamente, la frecuencia cardíaca permanece elevada o continúa aumentando, el sistema mostrará el mensaje:
 
 **¡FATIGA MUSCULAR DETECTADA!**
-
 En caso contrario, el sistema indicará que el ejercicio continúa dentro de parámetros normales.
 
----
 
 ## Salida del programa
-
 La interfaz gráfica presenta:
 
 - Evolución temporal de la Frecuencia Mediana (MDF).
@@ -96,10 +81,7 @@ La interfaz gráfica presenta:
 - Indicadores numéricos actualizados en tiempo real.
 - Estado del análisis mediante alertas visuales.
 
----
-
 ## Observaciones
-
 - El programa requiere que el archivo `.acq` contenga correctamente los canales de EMG y ECG.
 - Las frecuencias de muestreo son obtenidas automáticamente desde el archivo BIOPAC.
 - El algoritmo fue diseñado para fines académicos y demostrativos relacionados con el análisis de fatiga neuromuscular.
